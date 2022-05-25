@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/artsv79/outboxer"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/aws/aws-sdk-go/service/kinesis/kinesisiface"
-	"github.com/italolelis/outboxer"
 )
 
 const (

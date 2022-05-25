@@ -8,8 +8,8 @@ import (
 	"time"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/lock"
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/lock"
 )
 
 func TestSQLServer_WithInstance_must_return_SQLServerDataStore(t *testing.T) {

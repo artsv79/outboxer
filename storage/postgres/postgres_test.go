@@ -7,8 +7,8 @@ import (
 	"time"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/lock"
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/lock"
 )
 
 // nolint

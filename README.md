@@ -1,9 +1,10 @@
 # Outboxer
 
-[![Build Status](https://github.com/italolelis/outboxer/workflows/Main/badge.svg)](https://github.com/italolelis/outboxer/actions)
-[![codecov](https://codecov.io/gh/italolelis/outboxer/branch/master/graph/badge.svg?token=8G6G1B3QE6)](https://codecov.io/gh/italolelis/outboxer)
-[![Go Report Card](https://goreportcard.com/badge/github.com/italolelis/outboxer)](https://goreportcard.com/report/github.com/italolelis/outboxer)
-[![GoDoc](https://godoc.org/github.com/italolelis/outboxer?status.svg)](https://godoc.org/github.com/italolelis/outboxer)
+[![Build Status](https://github.com/artsv79/outboxer/workflows/Main/badge.svg)](https://github.com/artsv79/outboxer/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/artsv79/outboxer)](https://goreportcard.com/report/github.com/artsv79/outboxer)
+[![GoDoc](https://godoc.org/github.com/artsv79/outboxer?status.svg)](https://godoc.org/github.com/artsv79/outboxer)
+
+This is fork of https://github.com/italolelis/outboxer
 
 Outboxer is a go library that implements the [outbox pattern](http://www.kamilgrzybek.com/design/the-outbox-pattern/).
 
@@ -20,7 +21,7 @@ want to use *outboxer*.
 The first thing to do is include the package in your project
 
 ```sh
-go get github.com/italolelis/outboxer
+go get github.com/artsv79/outboxer
 ```
 
 ### Initial Configuration
@@ -111,10 +112,6 @@ Outboxer comes with a few implementations of Data Stores and Event Streams.
 - [Kinesis EventStream](es/kinesis/)
 - [SQS EventStream](es/sqs/)
 - [GCP PubSub](es/pubsub/)
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 

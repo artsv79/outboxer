@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/es/sqs"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/request"
 	sqsraw "github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/aws/aws-sdk-go/service/sqs/sqsiface"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/sqs"
 )
 
 type mockedSQS struct {

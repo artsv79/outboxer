@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/italolelis/outboxer"
-	amqpOut "github.com/italolelis/outboxer/es/amqp"
-	"github.com/italolelis/outboxer/storage/postgres"
+	"github.com/artsv79/outboxer"
+	amqpOut "github.com/artsv79/outboxer/es/amqp"
+	"github.com/artsv79/outboxer/storage/postgres"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

@@ -6,8 +6,8 @@ import (
 	"os"
 
 	pubsubraw "cloud.google.com/go/pubsub"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/pubsub"
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/es/pubsub"
 )
 
 func ExampleNew() {

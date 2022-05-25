@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/lock"
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/lock"
 )
 
 const (

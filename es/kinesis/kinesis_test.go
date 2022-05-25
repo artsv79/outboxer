@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/es/kinesis"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/request"
 	kinesisraw "github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/aws/aws-sdk-go/service/kinesis/kinesisiface"
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/kinesis"
 )
 
 // Define a mock struct to be used in your unit tests of myFunc.

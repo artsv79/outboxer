@@ -3,7 +3,7 @@ package outboxer_test
 import (
 	"testing"
 
-	"github.com/italolelis/outboxer"
+	"github.com/artsv79/outboxer"
 )
 
 func TestOutboxMessage(t *testing.T) {

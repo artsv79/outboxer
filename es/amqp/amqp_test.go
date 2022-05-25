@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/italolelis/outboxer"
-	"github.com/italolelis/outboxer/es/amqp"
+	"github.com/artsv79/outboxer"
+	"github.com/artsv79/outboxer/es/amqp"
 	amqpraw "github.com/rabbitmq/amqp091-go"
 )
 
